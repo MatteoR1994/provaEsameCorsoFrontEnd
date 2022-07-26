@@ -1,0 +1,32 @@
+.menu-div {
+    width: 100%;
+    height: 100%;
+    background-color: #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+.link:hover {
+    background-color: grey;
+    color: white;
+}
+
+.active {
+    background-color: grey;
+    color: white;
+    font-style: italic;
+}

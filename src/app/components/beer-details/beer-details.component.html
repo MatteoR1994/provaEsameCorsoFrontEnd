@@ -1,0 +1,15 @@
+<div class="beer-details-div">
+  <div class="beer" *ngIf="beer">
+    <div class="photo">
+      <img src="{{beer.image_url}}" alt="">
+    </div>
+    <div class="data">
+      <span class="beer-name-text">{{beer.name}}</span>
+      <span class="beer-description-text">{{beer.description}}</span>
+      <span  class="beer-food-pairing-text">Food pairing:</span>
+      <ol>
+        <li *ngFor="let fp of beer.food_pairing">{{fp}}</li>
+      </ol>
+    </div>
+  </div>
+</div>

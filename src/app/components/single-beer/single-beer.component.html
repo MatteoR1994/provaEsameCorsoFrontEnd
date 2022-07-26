@@ -1,0 +1,13 @@
+<div *ngIf="beer">
+    <div class="beer-container">
+        <div class="beer-img-container">
+            <img src="{{beer.image_url}}" alt="">
+        </div>
+        <div class="beer-data-container">
+            <span>{{beer.name}}</span>
+        </div>
+        <div class="beer-detail-container">
+            <button class="detail-button" routerLink="/details/{{beer.id}}">DETTAGLI</button>
+        </div>
+    </div>
+</div>

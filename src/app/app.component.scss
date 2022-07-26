@@ -1,0 +1,16 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 150px 60px 1fr 200px;
+    grid-template-areas: "header"
+                         "menu"
+                         "cont"
+                         "footer";
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+}
